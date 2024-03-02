@@ -3,19 +3,19 @@ const { Router } = require('express');
 const router = Router();
 
 router.get('/', (req, res) => {
-  res.send('GET POSTS')
+  res.send('GET comments')
 })
 
 router.post('/', (req, res) => {
-  res.send('POST POSTS')
+  res.send('POST comments')
 })
 
 router.put('/', (req, res) => {
-  res.send('PUT POSTS')
+  res.send('PUT comments')
 })
 
 router.delete('/', (req, res) => {
-  res.send('DELETE POSTS')
+  res.send('DELETE comments')
 })
 
 module.exports = router;
